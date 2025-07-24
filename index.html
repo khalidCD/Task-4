@@ -1,46 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact us</title>
-    <link rel="stylesheet" href="style.css">
-    
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="container">
-        <form action="" id="Form" class="form">
-            <h1
-             >Contact us</h1>
-        </form>
-        <div class="input-group">
-            <label for="firstname" class="text">First Name</label>
-            <input type="text" id="fname"name="firstname" placeholder="Enter your first name" required/>
-            <div  class="error" id="fnameerror"></div>
-        </div>
-         <div class="input-group">
-            <label for="lastname" class="text" >Last  Name</label>
-            <input type="text" id="lname" name="lastname"  placeholder="Enter your last name" required/>
-            <div  class="error" id="lnameerror"></div>
-        </div>
-         <div class="input-group">
-            <label for="Contact" class="text">Contact Number</label>
-            <input type="number" id="Contact" name="contact"  placeholder="Enter your Contact number" required/>
-            <div  class="error" id="conerror"></div>
-        </div>
-         <div class="input-group">
-            <label for="EmailAddress" class="text">Email Address</label>
-            <input type="email" id="Emailid" name="EmailAddress"  placeholder="Enter your email" required/>
-            <div  class="error" id="emailerror"></div>
-        </div>
-         <div class="input-group">
-            <label for="location" class="text">Location</label>
-            <input type="text" id="loc" name="location" placeholder="Enter your Location" required/>
-            <div  class="error" id="error"></div>
-            <button type="submit" id="button">Submit</button>
-        </div>
-    </div>
+  <div class="container">
+    <form id="Form" class="form">
+      <h1>Contact Us</h1>
+
+      <div class="input-group">
+        <label for="fname" class="text">First Name</label>
+        <input type="text" id="fname" name="firstname" required />
+        <div class="error" id="fnameerror"></div>
+      </div>
+
+      <div class="input-group">
+        <label for="lname" class="text">Last Name</label>
+        <input type="text" id="lname" name="lastname" required />
+        <div class="error" id="lnameerror"></div>
+      </div>
+
+      <div class="input-group">
+        <label for="Contact" class="text">Contact Number</label>
+        <input type="text" id="Contact" name="contact" required />
+        <div class="error" id="conerror"></div>
+      </div>
+
+      <div class="input-group">
+        <label for="Emailid" class="text">Email</label>
+        <input type="email" id="Emailid" name="email" required />
+        <div class="error" id="emailerror"></div>
+      </div>
+
+      <div class="input-group">
+        <label for="loc" class="text">Location</label>
+        <input type="text" id="loc" name="location" required />
+        <div class="error" id="locerror"></div>
+      </div>
+
+      <button type="submit" id="button">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
 </body>
-<script src="script.js" ></script>
 </html>
